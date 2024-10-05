@@ -14,7 +14,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8" />
 	<!-- Site Title -->
-	<title>Belanja di Pasar Sukoharjo</title>
+	<title>Belanja di Pasar Sukoharjo 2</title>
 
 	<link rel="icon" href="img/Logo.png">
 
