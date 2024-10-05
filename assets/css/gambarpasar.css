@@ -1,0 +1,51 @@
+.hot-deal-area .thumb {
+  position: relative;
+  overflow: hidden; /* Untuk memastikan elemen tidak keluar dari area thumbnail */
+}
+
+.hot-deal-area .thumb img {
+  transition: transform 0.5s ease;
+}
+
+.hot-deal-area .thumb:hover img {
+  transform: scale(1.1); /* Zoom-in efek saat hover pada gambar */
+}
+
+.hot-deal-area .centered-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2; /* Pastikan ini di atas overlay */
+  transition: opacity 0.3s ease;
+  opacity: 0; /* Mulai dengan opacity 0 agar button hanya muncul saat hover */
+}
+
+.hot-deal-area .thumb:hover .centered-button {
+  opacity: 1; /* Button muncul saat hover */
+}
+
+.hot-deal-area .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Opacity untuk background hitam */
+  z-index: 1;
+  transition: background-color 0.3s ease; /* Animasi perubahan warna background */
+}
+
+.hot-deal-area .thumb:hover .overlay {
+  background-color: rgba(0, 0, 0, 0.7); /* Menggelapkan overlay saat hover */
+}
+
+.hot-deal-area .details {
+  z-index: 3; /* Agar teks tetap terlihat di atas overlay */
+  transition: color 0.3s ease;
+}
+
+.hot-deal-area .thumb:hover .details h4,
+.hot-deal-area .thumb:hover .details p {
+  color: #fff; /* Memastikan teks tetap putih dan terlihat jelas */
+}
