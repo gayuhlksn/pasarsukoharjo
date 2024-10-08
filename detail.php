@@ -137,8 +137,9 @@ $title = "Detail dan Lokasi : " . $nama_pasar_tradisional;
                     center: [110.84123799367941, -7.67881856209625], // Titik tujuan
                     zoom: 13
                 });
-
-                const destination = [110.84123799367941, -7.67881856209625]; // Titik B yang sudah ditentukan
+                console.log("<?php echo $long; ?>");
+                console.log("<?php echo $lat; ?>");
+                const destination = [ parseFloat("<?php echo $lat; ?>"), parseFloat("<?php echo $long; ?>")];// Titik B yang sudah ditentukan
                 
                 // Get user's current location and calculate route
                 if (navigator.geolocation) {
