@@ -61,7 +61,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 						<ul class="price-list">
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawangsari</span>
-								<a href="http://localhost/pasarsukoharjo/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://202.10.40.162/pasarsukoharjo/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawang Kuno</span>
