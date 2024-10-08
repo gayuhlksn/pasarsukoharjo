@@ -1,4 +1,7 @@
 <?php include "header.php"; ?>
+<?php
+$PATH = "http://localhost/pasarsukoharjo/";
+?>
 <!-- start banner Area -->
 <section class="banner-area relative blog-home-banner" id="home">
 	<div class="overlay overlay-bg"></div>
@@ -58,7 +61,7 @@
 						<ul class="price-list">
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawangsari</span>
-								<a href="http://localhost/SIG-Pasar_Tradisional/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://202.10.40.162/pasarsukoharjo/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawang Kuno</span>
@@ -306,6 +309,16 @@
 						},
 						'properties': {
 							'url': 'detail.php?id_pasar=57'
+						}
+					},
+					{
+						'type': 'Feature',
+						'geometry': {
+							'type': 'Point',
+							'coordinates': [110.79581427707846, -7.736053441137062]
+						},
+						'properties': {
+							'url': 'detail.php?id_pasar=54'
 						}
 					}
 				]
