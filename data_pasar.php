@@ -36,7 +36,7 @@
               </thead>
               <tbody>
                 <?php
-                $data = file_get_contents('http://localhost/SIG-Pasar_Tradisional/ambildata.php');
+                $data = file_get_contents('http://202.10.40.162/pasarsukoharjo/ambildata.php');
                 $no = 1;
                 if (json_decode($data, true)) {
                   $obj = json_decode($data);
