@@ -187,7 +187,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 				<div class="row align-items-center">
 
 					<div id="map">
-						
+
 					</div>
 				</div>
 			</div>
@@ -277,93 +277,92 @@ $PATH = "http://localhost/pasarsukoharjo/";
 			</div>
 		</section>
 		<script>
-	mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0cmlhdGFtYSIsImEiOiJjbTF3Zmh6ZmwwbWx3MmtwZjQ5b25waTV5In0.2WgL12lJPTY2nbcYPP-49g';
-	const map = new mapboxgl.Map({
-		container: 'map',
-		style: 'mapbox://styles/mapbox/outdoors-v12',
-		center: [110.84135519856339, -7.6787704355722335],
-		zoom: 10
-	});
+			mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0cmlhdGFtYSIsImEiOiJjbTF3Zmh6ZmwwbWx3MmtwZjQ5b25waTV5In0.2WgL12lJPTY2nbcYPP-49g';
+			const map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/mapbox/outdoors-v12',
+				center: [110.84135519856339, -7.6787704355722335],
+				zoom: 10
+			});
 
-	map.on('load', () => {
-		map.addSource('national-park', {
-			'type': 'geojson',
-			'data': {
-				'type': 'FeatureCollection',
-				'features': [
-					{
-						'type': 'Feature',
-						'geometry': {
-							'type': 'Point',
-							'coordinates': [110.84135519856339, -7.6787704355722335]
-						},
-						'properties': {
-							'url': 'detail.php?id_pasar=40'
-						}
-					},
-					{
-						'type': 'Feature',
-						'geometry': {
-							'type': 'Point',
-							'coordinates': [110.81902803137395, -7.606185184046589]
-						},
-						'properties': {
-							'url': 'detail.php?id_pasar=57'
-						}
-					},
-					{
-						'type': 'Feature',
-						'geometry': {
-							'type': 'Point',
-							'coordinates': [110.79581427707846, -7.736053441137062]
-						},
-						'properties': {
-							'url': 'detail.php?id_pasar=54'
-						}
+			map.on('load', () => {
+				map.addSource('national-park', {
+					'type': 'geojson',
+					'data': {
+						'type': 'FeatureCollection',
+						'features': [{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.84135519856339, -7.6787704355722335]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=40'
+								}
+							},
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.81902803137395, -7.606185184046589]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=57'
+								}
+							},
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79581427707846, -7.736053441137062]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+						]
 					}
-				]
-			}
-		});
+				});
 
-		map.addLayer({
-			'id': 'park-boundary',
-			'type': 'fill',
-			'source': 'national-park',
-			'paint': {
-				'fill-color': '#888888',
-				'fill-opacity': 0.4
-			},
-			'filter': ['==', '$type', 'Polygon']
-		});
+				map.addLayer({
+					'id': 'park-boundary',
+					'type': 'fill',
+					'source': 'national-park',
+					'paint': {
+						'fill-color': '#888888',
+						'fill-opacity': 0.4
+					},
+					'filter': ['==', '$type', 'Polygon']
+				});
 
-		map.addLayer({
-			'id': 'park-volcanoes',
-			'type': 'circle',
-			'source': 'national-park',
-			'paint': {
-				'circle-radius': 6,
-				'circle-color': '#B42222'
-			},
-			'filter': ['==', '$type', 'Point']
-		});
+				map.addLayer({
+					'id': 'park-volcanoes',
+					'type': 'circle',
+					'source': 'national-park',
+					'paint': {
+						'circle-radius': 6,
+						'circle-color': '#B42222'
+					},
+					'filter': ['==', '$type', 'Point']
+				});
 
-		// Event listener untuk meng-handle click pada titik
-		map.on('click', 'park-volcanoes', (e) => {
-			// Ambil URL dari fitur yang diklik
-			const url = e.features[0].properties.url;
-			// Redirect ke URL tersebut
-			window.location.href = url;
-		});
+				// Event listener untuk meng-handle click pada titik
+				map.on('click', 'park-volcanoes', (e) => {
+					// Ambil URL dari fitur yang diklik
+					const url = e.features[0].properties.url;
+					// Redirect ke URL tersebut
+					window.location.href = url;
+				});
 
-		// Ubah tampilan cursor saat hover di atas titik
-		map.on('mouseenter', 'park-volcanoes', () => {
-			map.getCanvas().style.cursor = 'pointer';
-		});
-		map.on('mouseleave', 'park-volcanoes', () => {
-			map.getCanvas().style.cursor = '';
-		});
-	});
-</script>
+				// Ubah tampilan cursor saat hover di atas titik
+				map.on('mouseenter', 'park-volcanoes', () => {
+					map.getCanvas().style.cursor = 'pointer';
+				});
+				map.on('mouseleave', 'park-volcanoes', () => {
+					map.getCanvas().style.cursor = '';
+				});
+			});
+		</script>
 
 		<!-- End hot-deal Area -->
 		<?php include "footer.php"; ?>
