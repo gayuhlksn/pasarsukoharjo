@@ -59,7 +59,7 @@
 </head>
 
 <body>
-	<header id="header" style="background-color: black;">
+	<header id="header">
 		<div class="header-top">
 			<div class="container">
 				<div class="row align-items-center">
@@ -67,7 +67,7 @@
 			</div>
 		</div>
 		<div class="container main-menu">
-			<div class="row align-items-center justify-content-between d-flex">
+			<div class="row align-items-center justify-content-between d-flex" style="background-color: black;">
 				<div id="logo">
 					<a href="index.php"><img src="img/Logo.png" width="60px" height="50px" alt="" title="" /></a>
 				</div>
