@@ -59,7 +59,7 @@
 </head>
 
 <body>
-	<header id="header">
+	<header id="header" style="background-color: black;">
 		<div class="header-top">
 			<div class="container">
 				<div class="row align-items-center">
