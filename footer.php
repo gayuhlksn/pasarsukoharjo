@@ -61,7 +61,6 @@
 				<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
 			<div class="col-lg-4 col-sm-12 footer-social">
 				<a href="https://facebook.com/gayuhlksn"><i class="fa fa-facebook"></i></a>
-				<a href="https://twitter.com/gayuhlksn"><i class="fa fa-twitter"></i></a>
 				<a href="https://instagram.com/gayuhlksn"><i class="fa fa-instagram"></i></a>
 				<a href="https://behance.net/gayuhlaksono1"><i class="fa fa-behance"></i></a>
 

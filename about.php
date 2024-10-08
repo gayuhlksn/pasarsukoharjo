@@ -1,5 +1,4 @@
-
-<?php include "header.php"; ?>  
+<?php include "header.php"; ?>
 <?php
 $id = $_GET['id_pasar'];
 include_once "ambildata_id.php";
@@ -27,7 +26,6 @@ $title = "Detail dan Lokasi : " . $nama_pasar;
 <script src="https://maps.googleapis.com/maps/api/js?sensor=false&callback=initMap"></script>
 
 <script>
-  
   function initialize() {
     var myLatlng = new google.maps.LatLng(<?php echo $lat ?>, <?php echo $long ?>);
     var mapOptions = {
@@ -64,24 +62,24 @@ $title = "Detail dan Lokasi : " . $nama_pasar;
   google.maps.event.addDomListener(window, 'load', initialize);
 </script>
 
-	<!-- start banner Area -->
-    <section class="about-banner relative">
-				<div class="overlay overlay-bg"></div>
-				<div class="container">				
-					<div class="row d-flex align-items-center justify-content-center">
-						<div class="about-content col-lg-12">
-							<h1 class="text-white">
-								About Us				
-							</h1>	
-							<p class="text-white link-nav"><a href="index.html">Home </a>  <span class="lnr lnr-arrow-right"></span>  <a href="about.html"> About Us</a></p>
-						</div>	
-					</div>
-				</div>
-			</section>
-			<!-- End banner Area -->	
-            	<!-- Start about-info Area -->
-			<section class="about-info-area section-gap">
-      <div class="container" style="padding-top: 120px;">
+<!-- start banner Area -->
+<section class="about-banner relative">
+  <div class="overlay overlay-bg"></div>
+  <div class="container">
+    <div class="row d-flex align-items-center justify-content-center">
+      <div class="about-content col-lg-12">
+        <h1 class="text-white">
+          About Us
+        </h1>
+        <p class="text-white link-nav"><a href="index.html">Home </a> <span class="lnr lnr-arrow-right"></span> <a href="about.html"> About Us</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End banner Area -->
+<!-- Start about-info Area -->
+<section class="about-info-area section-gap">
+  <div class="container" style="padding-top: 120px;">
     <div class="row">
 
       <div class="col-md-7" data-aos="fade-up" data-aos-delay="200">
@@ -133,7 +131,7 @@ $title = "Detail dan Lokasi : " . $nama_pasar;
             <div id="map-canvas" style="width:100%;height:380px;"></div>
           </div>
         </div>
-      </div>  
-			</section>
-			<!-- End about-info Area -->
+      </div>
+</section>
+<!-- End about-info Area -->
 <?php include "footer.php"; ?>

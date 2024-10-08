@@ -14,7 +14,7 @@
 	<!-- meta character set -->
 	<meta charset="UTF-8" />
 	<!-- Site Title -->
-	<title>Belanja di Pasar Sukoharjo 2</title>
+	<title>Belanja di Pasar Sukoharjo</title>
 
 	<link rel="icon" href="img/Logo.png">
 
@@ -22,8 +22,15 @@
 	<link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
 	<script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
 	<style>
-	body { margin: 0; padding: 0; }
-	#map { width:100%;height:480px;}
+		body {
+			margin: 0;
+			padding: 0;
+		}
+
+		#map {
+			width: 100%;
+			height: 480px;
+		}
 	</style>
 	<!--CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
