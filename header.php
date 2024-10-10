@@ -19,19 +19,6 @@
 	<link rel="icon" href="img/Logo.png">
 
 	<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
-	<link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
-	<script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
-	<style>
-		body {
-			margin: 0;
-			padding: 0;
-		}
-
-		#map {
-			width: 100%;
-			height: 480px;
-		}
-	</style>
 	<!--CSS -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/linearicons.css">
@@ -74,7 +61,7 @@
 			</div>
 		</div>
 		<div class="container main-menu">
-			<div class="row align-items-center justify-content-between d-flex" style="background-color: black;">
+			<div class="row align-items-center justify-content-between d-flex">
 				<div id="logo">
 					<a href="index.php"><img src="img/Logo.png" width="60px" height="50px" alt="" title="" /></a>
 				</div>
