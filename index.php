@@ -182,7 +182,6 @@
 					<br>
 				</div>
 				<div class="row align-items-center">
-
 					<div id="map" style="width:100%;height:480px;"></div>
 					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJATG97s9RmP1MFJ-kgEPZgHvQH7EmqcU&callback=initMap"></script>
 					<script type=" text/javascript">
@@ -198,7 +197,7 @@
 						}
 						var officeLocations = [
 							<?php
-							$data = file_get_contents('http://localhost/SIG-Pasar_Tradisional/ambildata.php');
+							$data = file_get_contents('http://http://202.10.40.162/pasarsukoharjo/ambildata.php');
 							$no = 1;
 							if (json_decode($data, true)) {
 								$obj = json_decode($data);
