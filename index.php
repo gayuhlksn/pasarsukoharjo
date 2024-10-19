@@ -1,4 +1,7 @@
 <?php include "header.php"; ?>
+<?php
+$PATH = "http://localhost/pasarsukoharjo/";
+?>
 <!-- start banner Area -->
 <section class="banner-area relative blog-home-banner" id="home">
 	<div class="overlay overlay-bg"></div>
@@ -34,7 +37,7 @@
 					<a href="data_pasar.php" class="primary-btn text-uppercase">Lihat Pasar Tradisional</a>
 				</div>
 				<div class="col-lg-6 col-md-12 home-about-right no-padding">
-					<img class="img-fluid" src="assets/img/hero-bg1.jpg" alt="">
+					<img class="img-fluid" src="img/hero-bg1.jpg" alt="">
 				</div>
 			</div>
 		</div>
@@ -182,6 +185,7 @@
 					<br>
 				</div>
 				<div class="row align-items-center">
+<<<<<<< HEAD
 					<div id="map" style="width:100%;height:480px;"></div>
 					<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAJATG97s9RmP1MFJ-kgEPZgHvQH7EmqcU&callback=initMap"></script>
 					<script type=" text/javascript">
@@ -208,45 +212,12 @@
 							}
 							?>
 						];
+=======
 
-						function setMarkers(map, locations) {
-							var globalPin = 'img/marker.png';
-							for (var i = 0; i < locations.length; i++) {
-								var office = locations[i];
-								var myLatLng = new google.maps.LatLng(office[4], office[3]);
-								var infowindow = new google.maps.InfoWindow({
-									content: contentString
-								});
-								var contentString =
-									'<div id="content">' +
-									'<div id="siteNotice">' +
-									'</div>' +
-									'<h5 id="firstHeading" class="firstHeading">' + office[1] + '</h5>' +
-									'<div id="bodyContent">' +
-									'<a href=detail.php?id_pasar=' + office[0] + '>Info Detail</a>' +
-									'</div>' +
-									'</div>';
-								var marker = new google.maps.Marker({
-									position: myLatLng,
-									map: map,
-									title: office[1],
-									icon: 'img/markermap.png'
-								});
-								google.maps.event.addListener(marker, 'click', getInfoCallback(map, contentString));
-							}
-						}
+					<div id="map">
+>>>>>>> parent of 2df6202 (update1)
 
-						function getInfoCallback(map, content) {
-							var infowindow = new google.maps.InfoWindow({
-								content: content
-							});
-							return function() {
-								infowindow.setContent(content);
-								infowindow.open(map, this);
-							};
-						}
-						initialize();
-					</script>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -334,5 +305,93 @@
 				</div>
 			</div>
 		</section>
+		<script>
+			mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0cmlhdGFtYSIsImEiOiJjbTF3Zmh6ZmwwbWx3MmtwZjQ5b25waTV5In0.2WgL12lJPTY2nbcYPP-49g';
+			const map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/mapbox/outdoors-v12',
+				center: [110.84135519856339, -7.6787704355722335],
+				zoom: 10
+			});
+
+			map.on('load', () => {
+				map.addSource('national-park', {
+					'type': 'geojson',
+					'data': {
+						'type': 'FeatureCollection',
+						'features': [{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.84135519856339, -7.6787704355722335]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=40'
+								}
+							},
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.81902803137395, -7.606185184046589]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=57'
+								}
+							},
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79581427707846, -7.736053441137062]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+						]
+					}
+				});
+
+				map.addLayer({
+					'id': 'park-boundary',
+					'type': 'fill',
+					'source': 'national-park',
+					'paint': {
+						'fill-color': '#888888',
+						'fill-opacity': 0.4
+					},
+					'filter': ['==', '$type', 'Polygon']
+				});
+
+				map.addLayer({
+					'id': 'park-volcanoes',
+					'type': 'circle',
+					'source': 'national-park',
+					'paint': {
+						'circle-radius': 6,
+						'circle-color': '#B42222'
+					},
+					'filter': ['==', '$type', 'Point']
+				});
+
+				// Event listener untuk meng-handle click pada titik
+				map.on('click', 'park-volcanoes', (e) => {
+					// Ambil URL dari fitur yang diklik
+					const url = e.features[0].properties.url;
+					// Redirect ke URL tersebut
+					window.location.href = url;
+				});
+
+				// Ubah tampilan cursor saat hover di atas titik
+				map.on('mouseenter', 'park-volcanoes', () => {
+					map.getCanvas().style.cursor = 'pointer';
+				});
+				map.on('mouseleave', 'park-volcanoes', () => {
+					map.getCanvas().style.cursor = '';
+				});
+			});
+		</script>
+
 		<!-- End hot-deal Area -->
 		<?php include "footer.php"; ?>
