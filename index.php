@@ -290,6 +290,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 					'type': 'geojson',
 					'data': {
 						'type': 'FeatureCollection',
+						// Tambah lokasi
 						'features': [{
 								'type': 'Feature',
 								'geometry': {
@@ -320,6 +321,18 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'url': 'detail.php?id_pasar=54'
 								}
 							}
+							// Contoh
+							// ,
+							// {
+							// 	'type': 'Feature',
+							// 	'geometry': {
+							// 		'type': 'Point',
+							// 		'coordinates': [110.79581427707846, -7.736053441137062]
+							// 	},
+							// 	'properties': {
+							// 		'url': 'detail.php?id_pasar=54'
+							// 	}
+							// }
 						]
 					}
 				});

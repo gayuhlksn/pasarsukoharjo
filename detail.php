@@ -22,7 +22,7 @@ foreach ($obj->results as $item) {
   $jumlah_kios_dan_los .= $item->jumlah_kios_dan_los;
   $lat .= $item->latitude;
   $long .= $item->longitude;
-  $gambar .= $item->gambar; // Ambil data gambar
+  // $gambar .= $item->gambar; // Ambil data gambar
 }
 
 $title = "Detail dan Lokasi : " . $nama_pasar_tradisional;
@@ -129,90 +129,96 @@ $title = "Detail dan Lokasi : " . $nama_pasar_tradisional;
             </table>
             <div id="map"></div>
             <script>
-                mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0cmlhdGFtYSIsImEiOiJjbTF3Zmh6ZmwwbWx3MmtwZjQ5b25waTV5In0.2WgL12lJPTY2nbcYPP-49g';
+              mapboxgl.accessToken = 'pk.eyJ1Ijoic2F0cmlhdGFtYSIsImEiOiJjbTF3Zmh6ZmwwbWx3MmtwZjQ5b25waTV5In0.2WgL12lJPTY2nbcYPP-49g';
 
-                const map = new mapboxgl.Map({
-                    container: 'map',
-                    style: 'mapbox://styles/mapbox/streets-v12',
-                    center: [110.84123799367941, -7.67881856209625], // Titik tujuan
-                    zoom: 13
+              const map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v12',
+                center: [110.84123799367941, -7.67881856209625], // Titik tujuan
+                zoom: 13
+              });
+              console.log("<?php echo $long; ?>");
+              console.log("<?php echo $lat; ?>");
+              const destination = [parseFloat("<?php echo $lat; ?>"), parseFloat("<?php echo $long; ?>")]; // Titik B yang sudah ditentukan
+
+              // Get user's current location and calculate route
+              if (navigator.geolocation) {
+                navigator.geolocation.getCurrentPosition(position => {
+                  const userLocation = [position.coords.longitude, position.coords.latitude]; // Lokasi saat ini
+
+                  // Call the API to get route
+                  getRoute(userLocation, destination);
+
+                  // Optionally zoom the map to the user's location
+
+                  map.flyTo({
+                    center: userLocation,
+                    zoom: 11
+                  });
                 });
-                console.log("<?php echo $long; ?>");
-                console.log("<?php echo $lat; ?>");
-                const destination = [ parseFloat("<?php echo $lat; ?>"), parseFloat("<?php echo $long; ?>")];// Titik B yang sudah ditentukan
-                
-                // Get user's current location and calculate route
-                if (navigator.geolocation) {
-                    navigator.geolocation.getCurrentPosition(position => {
-                        const userLocation = [position.coords.longitude, position.coords.latitude]; // Lokasi saat ini
+              } else {
+                alert("Geolocation is not supported by this browser.");
+              }
 
-                        // Call the API to get route
-                        getRoute(userLocation, destination);
+              // Function to get the route from point A to point B
+              async function getRoute(start, end) {
+                const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${start[0]},${start[1]};${end[0]},${end[1]}?geometries=geojson&access_token=${mapboxgl.accessToken}`;
+                const response = await fetch(url);
+                const data = await response.json();
+                const route = data.routes[0].geometry.coordinates;
 
-                        // Optionally zoom the map to the user's location
+                // Add the route as a new layer to the map
+                map.addLayer({
+                  id: 'route',
+                  type: 'line',
+                  source: {
+                    type: 'geojson',
+                    data: {
+                      type: 'Feature',
+                      properties: {},
+                      geometry: {
+                        type: 'LineString',
+                        coordinates: route
+                      }
+                    }
+                  },
+                  layout: {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                  },
+                  paint: {
+                    'line-color': '#1DB954',
+                    'line-width': 5
+                  }
+                });
 
-                        map.flyTo({
-                            center: userLocation,
-                            zoom: 11
-                        });
-                    });
-                } else {
-                    alert("Geolocation is not supported by this browser.");
-                }
+                // Add markers for start and end points
+                addMarkers(start, end);
+              }
 
-                // Function to get the route from point A to point B
-                async function getRoute(start, end) {
-                    const url = `https://api.mapbox.com/directions/v5/mapbox/driving/${start[0]},${start[1]};${end[0]},${end[1]}?geometries=geojson&access_token=${mapboxgl.accessToken}`;
-                    const response = await fetch(url);
-                    const data = await response.json();
-                    const route = data.routes[0].geometry.coordinates;
+              // Function to add markers for the start and end points
+              function addMarkers(start, end) {
+                // Add start point marker (User's current location)
+                new mapboxgl.Marker({
+                    color: 'blue'
+                  })
+                  .setLngLat(start)
+                  .addTo(map);
 
-                    // Add the route as a new layer to the map
-                    map.addLayer({
-                        id: 'route',
-                        type: 'line',
-                        source: {
-                            type: 'geojson',
-                            data: {
-                                type: 'Feature',
-                                properties: {},
-                                geometry: {
-                                    type: 'LineString',
-                                    coordinates: route
-                                }
-                            }
-                        },
-                        layout: {
-                            'line-join': 'round',
-                            'line-cap': 'round'
-                        },
-                        paint: {
-                            'line-color': '#1DB954',
-                            'line-width': 5
-                        }
-                    });
+                // Add end point marker (Destination)
+                new mapboxgl.Marker({
+                    color: 'red'
+                  })
+                  .setLngLat(end)
+                  .addTo(map)
+                  .setPopup(popup);
+              }
 
-                    // Add markers for start and end points
-                    addMarkers(start, end);
-                }
-
-                // Function to add markers for the start and end points
-                function addMarkers(start, end) {
-                    // Add start point marker (User's current location)
-                    new mapboxgl.Marker({ color: 'blue' })
-                        .setLngLat(start)
-                        .addTo(map);
-
-                    // Add end point marker (Destination)
-                    new mapboxgl.Marker({ color: 'red' })
-                        .setLngLat(end)
-                        .addTo(map)
-                        .setPopup(popup);
-                }
-
-                const popup = new mapboxgl.Popup({ offset: 25 }).setText(
-                    'Pasar Ir Soekarno Sukoharjo. Jl. Ir. Soekarno, Sukoharjo, Kabupaten Sukoharjo, Jawa Tengah 57511'
-                );
+              const popup = new mapboxgl.Popup({
+                offset: 25
+              }).setText(
+                'Pasar Ir Soekarno Sukoharjo. Jl. Ir. Soekarno, Sukoharjo, Kabupaten Sukoharjo, Jawa Tengah 57511'
+              );
             </script>
           </div>
         </div>
