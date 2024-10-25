@@ -69,12 +69,6 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="col-sm-2 col-sm-2 control-label">Gambar</label>
-                                        <div class="col-sm-8">
-                                            <input name="gambar" class="form-control" id="gambar" type="file" value="<?php echo $data['gambar']; ?>" required />
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
                                         <label class="col-sm-2 col-sm-2 control-label">Jumlah Kios dan Los</label>
                                         <div class="col-sm-8">
                                             <input name="jumlah_kios_dan_los" class="form-control" type="text" id="jumlah_kios_dan_los" type="text" value="<?php echo $data['jumlah_kios_dan_los']; ?>" required />

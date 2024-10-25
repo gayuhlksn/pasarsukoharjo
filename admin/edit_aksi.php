@@ -9,7 +9,6 @@ $alamat = $_POST['alamat'];
 $deskripsi = $_POST['deskripsi'];
 $jumlah_kios_dan_los = $_POST['jumlah_kios_dan_los'];
 $jam_operasional = $_POST['jam_operasional'];
-$gambar = $_POST['gambar'];
 $latitude = $_POST['latitude'];
 $longitude = $_POST['longitude'];
 
