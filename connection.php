@@ -1,10 +1,10 @@
 <?php
-// $host = "202.10.40.162";
+// $host = "localhost";
 // $user = "userpasar";
-// $pass = "scP!#PB872za6s";
+// $pass = "gayuhlksn";
 // $name = "sig_map4";
 
-local
+// local
 $host = "localhost";
 $user = "root";
 $pass = "";
