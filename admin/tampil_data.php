@@ -39,7 +39,6 @@ include "../connection.php";
                                             <th>Jumlah Kios dan Los</th>
                                             <th>Deskripsi</th>
                                             <th>Jam Operasional</th>
-                                            <th>Gambar</th>
                                             <th>Latitude</th>
                                             <th>Longitude</th>
                                             <th>Aksi</th>
@@ -58,7 +57,6 @@ include "../connection.php";
                                                 <td><?php echo $d['jumlah_kios_dan_los']; ?></td>
                                                 <td><?php echo $d['deskripsi']; ?></td>
                                                 <td><?php echo $d['jam_operasional']; ?></td>
-                                                <td><img src="../uploads/<?php echo $d['gambar']; ?>" width="100" alt="Gambar Pasar"></td>
                                                 <td><?php echo $d['latitude']; ?></td>
                                                 <td><?php echo $d['longitude']; ?></td>
                                                 <td>
