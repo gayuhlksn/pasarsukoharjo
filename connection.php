@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+$host = "202.10.40.162";
 $user = "userpasar";
 $pass = "gayuhlksn";
 $name = "sig_map4";
