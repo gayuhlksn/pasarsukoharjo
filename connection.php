@@ -1,7 +1,7 @@
 <?php
 $host = "202.10.40.162";
 $user = "userpasar";
-$pass = "gayuhlksn";
+$pass = "scP!#PB872za6s";
 $name = "sig_map4";
 
 // local
