@@ -11,7 +11,6 @@ $jam_operasional = "";
 $jumlah_kios_dan_los = "";
 $lat = "";
 $long = "";
-$gambar = ""; // Tambahkan variabel untuk gambar
 
 foreach ($obj->results as $item) {
   $id_pasar .= $item->id_pasar;
