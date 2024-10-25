@@ -66,13 +66,13 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 col-sm-4 control-label">Latitude</label>
                                     <div class="col-sm-6">
-                                        <input name="latitude" class="form-control" type="text" placeholder="-7.3811577" />
+                                        <input name="latitude" class="form-control" type="text" placeholder="109.2550945" />
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <label class="col-sm-2 col-sm-4 control-label">Longitude</label>
                                     <div class="col-sm-6">
-                                        <input name="longitude" class="form-control" type="text" placeholder="109.2550945" />
+                                        <input name="longitude" class="form-control" type="text" placeholder="-7.3811577" />
                                     </div>
                                 </div>
                                 <div class="form-group" style="margin-bottom: 20px;">
