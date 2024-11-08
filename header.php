@@ -74,7 +74,7 @@
 			</div>
 		</div>
 		<div class="container main-menu">
-			<div class="row align-items-center justify-content-between d-flex" style="background-color: black;">
+			<div class="row align-items-center justify-content-between d-flex" style="background-color: black; height: 100px; padding: 20px;">
 				<div id="logo">
 					<a href="index.php"><img src="img/Logo.png" width="60px" height="50px" alt="" title="" /></a>
 				</div>
