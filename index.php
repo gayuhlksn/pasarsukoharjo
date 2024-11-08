@@ -61,7 +61,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 						<ul class="price-list">
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawangsari</span>
-								<a href="http://202.10.40.162/pasarsukoharjo/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawang Kuno</span>
@@ -637,6 +637,79 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'url': 'detail.php?id_pasar=54'
 								}
 							}
+							, 
+							// Watukelir -7.805866627419447, 110.77450560129179
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.77450560129179, -7.805866627419447]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Carikan -7.6809743037635725, 110.83192410896268
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.83192410896268, -7.6809743037635725]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Kepuh -7.70082681075438, 110.86004187641707
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.86004187641707, -7.70082681075438]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Cuplik -7.675318036226192, 110.79501598012621
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79501598012621, -7.675318036226192]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Kedunggudel -7.7086728822796164, 110.80694033779938
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.80694033779938, -7.7086728822796164]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							} 
+							,
+							// Sedayu -7.630929687650468, 110.95228590131667
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.95228590131667, -7.630929687650468]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+
 						]
 					}
 				});
