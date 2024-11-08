@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
+$user = "userpasar";
+$pass = "gayuhlksn";
 $name = "sig_map4";
 
 // Koneksi ke database
