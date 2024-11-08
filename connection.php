@@ -1,19 +1,19 @@
 <?php
-// Informasi konfigurasi database
-$host = "202.10.40.162";
+// $host = "localhost";
+// $user = "userpasar";
+// $pass = "gayuhlksn";
+// $name = "sig_map4";
+
+// local
+$host = "localhost";
 $user = "root";
 $pass = "";
 $name = "sig_map4";
 
-// Membuat koneksi
-$connection = mysqli_connect($host, $user, $pass, $name);
 
-// Cek koneksi
-if (!$connection) {
-    die("Koneksi database gagal: " . mysqli_connect_error());
-} else {
-    echo "Koneksi berhasil!"; // Tampilkan ini hanya saat debugging, bisa dihapus saat produksi.
+$connection = mysqli_connect($host, $user, $pass, $name);
+if (mysqli_connect_errno()) {
+    echo "connectionx database mysqli gagal!!! : " . mysqli_connect_error();
 }
 
-// Menutup koneksi (gunakan hanya jika dibutuhkan, atau di bagian akhir script)
-mysqli_close($connection);
+//mysqli_select_db($name, $koneksi) or die("Tidak ada database yang dipilih!");
