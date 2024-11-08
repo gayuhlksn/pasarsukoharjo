@@ -519,18 +519,124 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'url': 'detail.php?id_pasar=54'
 								}
 							}
-							// Contoh
-							// ,
-							// {
-							// 	'type': 'Feature',
-							// 	'geometry': {
-							// 		'type': 'Point',
-							// 		'coordinates': [110.79581427707846, -7.736053441137062]
-							// 	},
-							// 	'properties': {
-							// 		'url': 'detail.php?id_pasar=54'
-							// 	}
-							// }
+							//
+							,
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point', 
+									'coordinates': [110.75985129547304, -7.758616663598892]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point', 
+									'coordinates': [110.82077432616198, -7.618788612334853]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79581427707846, -7.736053441137062]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// nguter -7.740857779238104, 110.87991002738279
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.87991002738279, -7.740857779238104]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Gawok -7.588635837989338, 110.74454350974398
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.74454350974398, -7.588635837989338]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Bekonang -7.609211642396267, 110.8738513073604
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.8738513073604, -7.609211642396267]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Bulu -6.9838768560939055, 110.40764399546163
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.40764399546163, -6.9838768560939055]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Glondongan -7.625238350328832, 110.89380052012217
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.89380052012217, -7.625238350328832]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Ngalian -7.719400893384781, 110.79899514180414
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79899514180414, -7.719400893384781]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+							,
+							// Lengking -7.732894577734102, 110.82543645886133
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.82543645886133, -7.732894577734102]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
 						]
 					}
 				});
