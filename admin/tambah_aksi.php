@@ -29,8 +29,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (mysqli_query($connection, $query)) {
         echo "Data berhasil disimpan.";
         // Redirect ke halaman data_pasar.php
-        header('Location: data_pasar.php');
-        
+        // https://belanjadipasarsukoharjo.cloud/data_pasar.php bukan https://belanjadipasarsukoharjo.cloud/admin/data_pasar.php
+        header('Location: /data_pasar.php');
+
     } else {
         echo "Error: " . $query . "<br>" . mysqli_error($connection);
     }
