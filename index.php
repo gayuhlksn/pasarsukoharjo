@@ -280,6 +280,42 @@ $PATH = "http://localhost/pasarsukoharjo/";
 										</div>
 									</div>
 								</div>
+								<!-- Carousel Item 4 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Telukan.jpg" alt="Pasar Bekonang">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Telukan</h4>
+											<p class="text-white">
+												Jl. Raya Telukan No. 42 Grogol
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 5 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Grogol.jpg" alt="Pasar Bekonang">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Grogol</h4>
+											<p class="text-white">
+												Jl. Raya Grogol Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
 								<!-- Carousel Item  -->
 								<div class="carousel-item">
 									<div class="single-carusel">
