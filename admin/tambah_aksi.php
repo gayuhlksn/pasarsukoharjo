@@ -23,8 +23,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $longitude = mysqli_real_escape_string($connection, $_POST['longitude']);
 
     // Simpan data ke database
-    $query = "INSERT INTO pasar (nama_pasar, alamat, deskripsi, jumlah_kios_dan_los, jam_operasional, latitude, longitude) 
-              VALUES ('$nama_pasar', '$alamat', '$deskripsi', '$jumlah_kios_dan_los', '$jam_operasional', '$latitude', '$longitude')";
+    $query = "INSERT INTO pasar (nama_pasar, alamat, deskripsi, jumlah_kios_dan_los, jam_operasional, latitude, longitude, gambar) 
+              VALUES ('$nama_pasar', '$alamat', '$deskripsi', '$jumlah_kios_dan_los', '$jam_operasional', '$latitude', '$longitude', '')";
 
     if (mysqli_query($connection, $query)) {
         echo "Data berhasil disimpan.";
