@@ -61,55 +61,55 @@ $PATH = "http://localhost/pasarsukoharjo/";
 						<ul class="price-list">
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawangsari</span>
-								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=54" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawang Kuno</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=55" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Ir. Soekarno</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Telukan</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=56" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Grogol</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=57" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Nguter</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=58" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Gawok</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=59" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Bekonang</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=62" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Bulu</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Glondongan</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Ngalian</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Lengking</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Watukelir</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 						</ul>
 					</div>
@@ -120,55 +120,55 @@ $PATH = "http://localhost/pasarsukoharjo/";
 						<ul class="price-list">
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Purwo</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Carikan</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Kepuh</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Cuplik</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Kedunggudel</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Kartasura</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Sraten</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Daleman</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Baki</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Sedayu</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Mulur</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Plumbon</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Mayang</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 						</ul>
 					</div>
@@ -528,7 +528,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'coordinates': [110.75985129547304, -7.758616663598892]
 								},
 								'properties': {
-									'url': 'detail.php?id_pasar=54'
+									'url': 'detail.php?id_pasar=56'
 								}
 							}
 							,
@@ -562,7 +562,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'coordinates': [110.87991002738279, -7.740857779238104]
 								},
 								'properties': {
-									'url': 'detail.php?id_pasar=54'
+									'url': 'detail.php?id_pasar=58'
 								}
 							}
 							,
@@ -574,7 +574,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'coordinates': [110.74454350974398, -7.588635837989338]
 								},
 								'properties': {
-									'url': 'detail.php?id_pasar=54'
+									'url': 'detail.php?id_pasar=59'
 								}
 							}
 							,
@@ -586,16 +586,16 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'coordinates': [110.8738513073604, -7.609211642396267]
 								},
 								'properties': {
-									'url': 'detail.php?id_pasar=54'
+									'url': 'detail.php?id_pasar=62'
 								}
 							}
 							,
-							// Bulu -6.9838768560939055, 110.40764399546163
+							// Bulu -7.765356187763393, 110.83329502245469
 							{
 								'type': 'Feature',
 								'geometry': {
 									'type': 'Point',
-									'coordinates': [110.40764399546163, -6.9838768560939055]
+									'coordinates': [110.83329502245469, -7.765356187763393]
 								},
 								'properties': {
 									'url': 'detail.php?id_pasar=54'
