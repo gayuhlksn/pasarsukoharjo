@@ -37,7 +37,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 					<a href="data_pasar.php" class="primary-btn text-uppercase">Lihat Pasar Tradisional</a>
 				</div>
 				<div class="col-lg-6 col-md-12 home-about-right no-padding">
-					<img class="img-fluid" src="img/hero-bg1.jpg" alt="">
+					<img class="img-fluid" src="img/pasar1.jpg" alt="">
 				</div>
 			</div>
 		</div>
