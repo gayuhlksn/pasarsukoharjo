@@ -213,15 +213,15 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/pasar.jpg" alt="Pasar Sukoharjo">
+											<img class="d-block img-fluid rounded" src="assets/img/Sukoharjo.jpg" alt="Pasar Sukoharjo">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
-											<h4 class="text-white">Pasar Sukoharjo</h4>
+											<h4 class="text-white">Pasar Ir. Sukoharjo</h4>
 											<p class="text-white">
-												Sukoharjo
+												Jl. Jendral Sudirman No. 53 Sukoharjo
 											</p>
 										</div>
 									</div>
@@ -231,7 +231,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/pasar.jpg" alt="Pasar Bekonang">
+											<img class="d-block img-fluid rounded" src="assets/img/Bekonang.jpg" alt="Pasar Bekonang">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
@@ -239,7 +239,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 										<div class="details text-center mt-3">
 											<h4 class="text-white">Pasar Bekonang</h4>
 											<p class="text-white">
-												Bekonang
+												Jl. Pemuda No. 57 Bekonang
 											</p>
 										</div>
 									</div>
@@ -249,15 +249,15 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/pasar.jpg" alt="Pasar Carikan">
+											<img class="d-block img-fluid rounded" src="assets/img/Kartasura.jpg" alt="Pasar Carikan">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
-											<h4 class="text-white">Pasar Carikan</h4>
+											<h4 class="text-white">Pasar Kartasura</h4>
 											<p class="text-white">
-												Carikan
+												Jl. Ahmad Yani Kartasura
 											</p>
 										</div>
 									</div>
