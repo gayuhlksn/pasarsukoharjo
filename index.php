@@ -249,6 +249,42 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Mulur.jpg" alt="Pasar Bekonang">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Mulur</h4>
+											<p class="text-white">
+												Mulur RT 1/1 Ds. Mulur Bendosari
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 3 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Bekonang.jpg" alt="Pasar Bekonang">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Lengking</h4>
+											<p class="text-white">
+												Lengking RT 2/4 Lengking Bulu Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item  -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Kartasura.jpg" alt="Pasar Carikan">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
