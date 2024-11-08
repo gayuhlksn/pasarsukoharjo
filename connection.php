@@ -1,6 +1,6 @@
 <?php
 // Informasi konfigurasi database
-$host = "localhost";
+$host = "202.10.40.162";
 $user = "root";
 $pass = "";
 $name = "sig_map4";
