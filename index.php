@@ -249,7 +249,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/Mulur.jpg" alt="Pasar Bekonang">
+											<img class="d-block img-fluid rounded" src="assets/img/Mulur.jpg" alt="Pasar Mulur">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
@@ -267,7 +267,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/Bekonang.jpg" alt="Pasar Bekonang">
+											<img class="d-block img-fluid rounded" src="assets/img/Lengking.jpg" alt="Pasar Bekonang">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
@@ -285,7 +285,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/Telukan.jpg" alt="Pasar Bekonang">
+											<img class="d-block img-fluid rounded" src="assets/img/Telukan.jpg" alt="Pasar Telukan">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
@@ -303,7 +303,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/Grogol.jpg" alt="Pasar Bekonang">
+											<img class="d-block img-fluid rounded" src="assets/img/Grogol.jpg" alt="Pasar Grogol">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
@@ -316,12 +316,138 @@ $PATH = "http://localhost/pasarsukoharjo/";
 										</div>
 									</div>
 								</div>
+								<!-- Carousel Item 6 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Bulu.jpg" alt="Pasar Bulu">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Bulu</h4>
+											<p class="text-white">
+												Dk. Soronaggan RT 3/5 Bulu Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 7 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Daleman.jpg" alt="Pasar Daleman">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Daleman</h4>
+											<p class="text-white">
+												Dk. Krangganan RT 1/4 Kudu Baki
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 8 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Cuplik.jpg" alt="Pasar Cuplik">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Cuplik</h4>
+											<p class="text-white">
+												Tegalsari RT 1/1 Bulakan Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 9 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Gawok.jpg" alt="Pasar Gawok">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Gawok</h4>
+											<p class="text-white">
+												Ds. Geneng Gatak Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 10 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Kedunggudel.jpg" alt="Pasar Kedunggudel">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Kedunggudel</h4>
+											<p class="text-white">
+												Kedunggudel RT 1/3 Kenep Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 11 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Purwo.jpg" alt="Pasar Purwo">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Purwo</h4>
+											<p class="text-white">
+												Karangtengah Weru Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
+								<!-- Carousel Item 11 -->
+								<div class="carousel-item">
+									<div class="single-carusel">
+										<div class="thumb relative">
+											<div class="overlay overlay-bg"></div>
+											<img class="d-block img-fluid rounded" src="assets/img/Sraten.jpg" alt="Pasar Sraten">
+											<div class="centered-button">
+												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+											</div>
+										</div>
+										<div class="details text-center mt-3">
+											<h4 class="text-white">Pasar Sraten</h4>
+											<p class="text-white">
+												Sraten Gatak Sukoharjo
+											</p>
+										</div>
+									</div>
+								</div>
 								<!-- Carousel Item  -->
 								<div class="carousel-item">
 									<div class="single-carusel">
 										<div class="thumb relative">
 											<div class="overlay overlay-bg"></div>
-											<img class="d-block img-fluid rounded" src="assets/img/Kartasura.jpg" alt="Pasar Carikan">
+											<img class="d-block img-fluid rounded" src="assets/img/Kartasura.jpg" alt="Pasar Kartasura">
 											<div class="centered-button">
 												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
