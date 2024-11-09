@@ -214,7 +214,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Sukoharjo.jpg" alt="Pasar Sukoharjo">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -232,7 +232,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Bekonang.jpg" alt="Pasar Bekonang">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=62" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -250,7 +250,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Mulur.jpg" alt="Pasar Mulur">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=82" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -268,7 +268,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Lengking.jpg" alt="Pasar Bekonang">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=70" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -286,7 +286,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Telukan.jpg" alt="Pasar Telukan">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=56" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -304,7 +304,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Grogol.jpg" alt="Pasar Grogol">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=57" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -322,7 +322,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Bulu.jpg" alt="Pasar Bulu">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=67" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -340,7 +340,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Daleman.jpg" alt="Pasar Daleman">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=79" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -358,7 +358,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Cuplik.jpg" alt="Pasar Cuplik">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=75" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -376,7 +376,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Gawok.jpg" alt="Pasar Gawok">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=59" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -394,7 +394,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Kedunggudel.jpg" alt="Pasar Kedunggudel">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=76" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -412,7 +412,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Purwo.jpg" alt="Pasar Purwo">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=72" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -430,7 +430,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Sraten.jpg" alt="Pasar Sraten">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=78" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
@@ -448,7 +448,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Kartasura.jpg" alt="Pasar Kartasura">
 											<div class="centered-button">
-												<a href="#" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=77" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
