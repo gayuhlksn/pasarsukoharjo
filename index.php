@@ -61,35 +61,35 @@ $PATH = "http://localhost/pasarsukoharjo/";
 						<ul class="price-list">
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawangsari</span>
-								<a href="http://202.10.40.162/pasarsukoharjo/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=54" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawang Kuno</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=55" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Ir. Soekarno</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Telukan</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=56" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Grogol</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=57" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Nguter</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=58" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Gawok</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=59" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Bekonang</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=62" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Bulu</span>
@@ -110,6 +110,23 @@ $PATH = "http://localhost/pasarsukoharjo/";
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Watukelir</span>
 								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=71" class="price-btn">Lihat Peta</a>
+
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Glondongan</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Ngalian</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Lengking</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Watukelir</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 						</ul>
 					</div>
@@ -169,6 +186,55 @@ $PATH = "http://localhost/pasarsukoharjo/";
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Mayang</span>
 								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=84" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Carikan</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Kepuh</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Cuplik</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Kedunggudel</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Kartasura</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Sraten</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Daleman</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Baki</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Sedayu</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Mulur</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Plumbon</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+							</li>
+							<li class="d-flex justify-content-between align-items-center">
+								<span>Pasar Mayang</span>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
 							</li>
 						</ul>
 					</div>
@@ -519,18 +585,182 @@ $PATH = "http://localhost/pasarsukoharjo/";
 									'url': 'detail.php?id_pasar=54'
 								}
 							}
-							// Contoh
-							// ,
-							// {
-							// 	'type': 'Feature',
-							// 	'geometry': {
-							// 		'type': 'Point',
-							// 		'coordinates': [110.79581427707846, -7.736053441137062]
-							// 	},
-							// 	'properties': {
-							// 		'url': 'detail.php?id_pasar=54'
-							// 	}
-							// }
+							//
+							,
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.75985129547304, -7.758616663598892]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=56'
+								}
+							},
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.82077432616198, -7.618788612334853]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79581427707846, -7.736053441137062]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// nguter -7.740857779238104, 110.87991002738279
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.87991002738279, -7.740857779238104]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=58'
+								}
+							},
+							// Gawok -7.588635837989338, 110.74454350974398
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.74454350974398, -7.588635837989338]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=59'
+								}
+							},
+							// Bekonang -7.609211642396267, 110.8738513073604
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.8738513073604, -7.609211642396267]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=62'
+								}
+							},
+							// Bulu -7.765356187763393, 110.83329502245469
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.83329502245469, -7.765356187763393]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Glondongan -7.625238350328832, 110.89380052012217
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.89380052012217, -7.625238350328832]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Ngalian -7.719400893384781, 110.79899514180414
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79899514180414, -7.719400893384781]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Lengking -7.732894577734102, 110.82543645886133
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.82543645886133, -7.732894577734102]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Watukelir -7.805866627419447, 110.77450560129179
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.77450560129179, -7.805866627419447]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Carikan -7.6809743037635725, 110.83192410896268
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.83192410896268, -7.6809743037635725]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Kepuh -7.70082681075438, 110.86004187641707
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.86004187641707, -7.70082681075438]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Cuplik -7.675318036226192, 110.79501598012621
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.79501598012621, -7.675318036226192]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Kedunggudel -7.7086728822796164, 110.80694033779938
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.80694033779938, -7.7086728822796164]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							},
+							// Sedayu -7.630929687650468, 110.95228590131667
+							{
+								'type': 'Feature',
+								'geometry': {
+									'type': 'Point',
+									'coordinates': [110.95228590131667, -7.630929687650468]
+								},
+								'properties': {
+									'url': 'detail.php?id_pasar=54'
+								}
+							}
+
 						]
 					}
 				});

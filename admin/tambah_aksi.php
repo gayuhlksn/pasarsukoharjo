@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "root";
-$pass = "";
+$user = "userpasar";
+$pass = "gayuhlksn";
 $name = "sig_map4";
 
 // Koneksi ke database
@@ -23,11 +23,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $longitude = mysqli_real_escape_string($connection, $_POST['longitude']);
 
     // Simpan data ke database
-    $query = "INSERT INTO pasar (nama_pasar, alamat, deskripsi, jumlah_kios_dan_los, jam_operasional, latitude, longitude) 
-              VALUES ('$nama_pasar', '$alamat', '$deskripsi', '$jumlah_kios_dan_los', '$jam_operasional', '$latitude', '$longitude')";
+    $query = "INSERT INTO pasar (nama_pasar, alamat, deskripsi, jumlah_kios_dan_los, jam_operasional, latitude, longitude, gambar) 
+              VALUES ('$nama_pasar', '$alamat', '$deskripsi', '$jumlah_kios_dan_los', '$jam_operasional', '$latitude', '$longitude', '')";
 
     if (mysqli_query($connection, $query)) {
         echo "Data berhasil disimpan.";
+        // Redirect ke halaman data_pasar.php
+        // https://belanjadipasarsukoharjo.cloud/data_pasar.php bukan https://belanjadipasarsukoharjo.cloud/admin/data_pasar.php
+        header('Location: /data_pasar.php');
+
     } else {
         echo "Error: " . $query . "<br>" . mysqli_error($connection);
     }
