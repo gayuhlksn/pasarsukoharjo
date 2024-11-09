@@ -1,14 +1,14 @@
 <?php
-// $host = "localhost";
-// $user = "userpasar";
-// $pass = "gayuhlksn";
-// $name = "sig_map4";
+$host = "localhost";
+$user = "userpasar";
+$pass = "gayuhlksn";
+$name = "sig_map4";
 
 // local
-$host = "localhost";
-$user = "root";
-$pass = "";
-$name = "sig_map4";
+// $host = "localhost";
+// $user = "root";
+// $pass = "";
+// $name = "sig_map4";
 
 
 $connection = mysqli_connect($host, $user, $pass, $name);
