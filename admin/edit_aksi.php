@@ -13,7 +13,7 @@ $latitude = $_POST['latitude'];
 $longitude = $_POST['longitude'];
 
 // update data ke database
-mysqli_query($koneksi, "update pasar set nama_pasar='$nama', alamat='$alamat', deskripsi='$deskripsi', jumlah_kios_dan_los='$jumlah_kios_dan_los',jam_operasional='$jam_operasional', gambar='$gambar', latitude='$latitude', longitude='$longitude' where id_pasar='$id'");
+mysqli_query($connection, "update pasar set nama_pasar='$nama', alamat='$alamat', deskripsi='$deskripsi', jumlah_kios_dan_los='$jumlah_kios_dan_los',jam_operasional='$jam_operasional', gambar='$gambar', latitude='$latitude', longitude='$longitude' where id_pasar='$id'");
 
 // mengalihkan halaman kembali ke index.php
 header("location:tampil_data.php");
