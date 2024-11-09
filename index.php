@@ -114,19 +114,19 @@ $PATH = "http://localhost/pasarsukoharjo/";
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Glondongan</span>
-								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=68" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Ngalian</span>
-								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=69" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Lengking</span>
-								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=70" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Watukelir</span>
-								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=40" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=71" class="price-btn">Lihat Peta</a>
 							</li>
 						</ul>
 					</div>
