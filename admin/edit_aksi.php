@@ -4,7 +4,7 @@ include '../connection.php';
 
 // menangkap data yang di kirim dari form
 $id = $_POST['id_pasar'];
-$nama = $_POST['nama_pasar_tradisiona;'];
+$nama = $_POST['nama_pasar'];
 $alamat = $_POST['alamat'];
 $deskripsi = $_POST['deskripsi'];
 $jumlah_kios_dan_los = $_POST['jumlah_kios_dan_los'];
