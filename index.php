@@ -65,7 +65,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Tawang Kuno</span>
-								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=55" class="price-btn">Lihat Peta</a>
+								<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=85" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Ir. Soekarno</span>
@@ -376,7 +376,7 @@ $PATH = "http://localhost/pasarsukoharjo/";
 											<div class="overlay overlay-bg"></div>
 											<img class="d-block img-fluid rounded" src="assets/img/Gawok.jpg" alt="Pasar Gawok">
 											<div class="centered-button">
-												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=58" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
+												<a href="http://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=59" class="primary-btn small-btn text-uppercase mt-2">Lihat Pasar</a>
 											</div>
 										</div>
 										<div class="details text-center mt-3">
