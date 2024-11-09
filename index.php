@@ -93,23 +93,23 @@ $PATH = "http://localhost/pasarsukoharjo/";
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Bulu</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=67" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Glondongan</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=68" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Ngalian</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=69" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Lengking</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=70" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Watukelir</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=71" class="price-btn">Lihat Peta</a>
 							</li>
 						</ul>
 					</div>
@@ -120,55 +120,55 @@ $PATH = "http://localhost/pasarsukoharjo/";
 						<ul class="price-list">
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Purwo</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=72" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Carikan</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=73" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Kepuh</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=74" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Cuplik</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=75" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Kedunggudel</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=76" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Kartasura</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=77" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Sraten</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=78" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Daleman</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=79" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Baki</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=80" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Sedayu</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=81" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Mulur</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=82" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Plumbon</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=83" class="price-btn">Lihat Peta</a>
 							</li>
 							<li class="d-flex justify-content-between align-items-center">
 								<span>Pasar Mayang</span>
-								<a href="#" class="price-btn">Lihat Peta</a>
+								<a href="https://belanjadipasarsukoharjo.cloud/detail.php?id_pasar=84" class="price-btn">Lihat Peta</a>
 							</li>
 						</ul>
 					</div>
